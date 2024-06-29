@@ -113,3 +113,14 @@ http://ホスト名:8080
 注意: 「ホスト名」は、実際のサーバーのホスト名またはIPアドレスに置き換えてください。
 
 これで、ブラウザを通じてGPUリソースモニターのデータを可視化できます．
+
+# ReleaseNote
+## 2024-06-29　Version0.0.1-release
+* ファストコミット。
+
+# Author
+作成情報を列挙する
+
+* 作成者：Amembo1219
+* 所属：Faculty of Computer Science, Tokyo University of Technology 
+* E-mail g212403591@edu.teu.ac.jp
