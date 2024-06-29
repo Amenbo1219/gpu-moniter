@@ -69,10 +69,10 @@ chmod 775 gpu_process.sh
 
 5. 「項目の場所を入力してください」というプロンプトが表示されたら、以下のコマンドを入力します：
 ```
-powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "C:\path\to\your\gpu_run.ps1"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "C:\path\to\your\gpu_process.ps1"
 ```
 
-注意: `C:\path\to\your\gpu_run.ps1` は、実際のスクリプトファイルのパスに置き換えてください。
+注意: `C:\path\to\your\gpu_process.ps1` は、実際のスクリプトファイルのパスに置き換えてください。
 
 6. 「次へ」をクリックし、ショートカットの名前（例：「GPU Monitor」）を入力して「完了」をクリックします。
 
