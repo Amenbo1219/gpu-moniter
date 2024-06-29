@@ -51,7 +51,6 @@ chmod 775 gpu_process.sh
    $output_dir = "C:\path"
 
     "C:\path" を、ログを保存したい適切なパスに変更します。例：
-    powershell
     $output_dir = "C:\Logs\"
 変更を保存して、ファイルを閉じます。
 
