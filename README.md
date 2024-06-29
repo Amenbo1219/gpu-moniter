@@ -17,10 +17,10 @@
 テキストエディタでgpu_process.shを開きます。
 8行目にある以下の行を探します：
 ```bash
-output_dir="/home/amembo/viwer/data/rynvidia"
-"/home/amembo/viwer/data/rynvidia" を、ログを保存したい適切なパスに変更します。例：
+ output_dir="/home/path"
+"/home/path" を、ログを保存したい適切なパスに変更します。例：
 bash
-output_dir="/home/user/logs/gpu-info"
+output_dir="/home/path"
 変更を保存して、ファイルを閉じます。
 ```
 #### 実行 (Linux/Unix用)
@@ -48,11 +48,11 @@ chmod 775 gpu_process.sh
 1. テキストエディタでgpu_process.ps1を開きます。
 2. 6行目にある以下の行を探します：
    ```powershell
-   $output_dir = "O:\GPU-info\p40"
+   $output_dir = "C:\path"
 
-    "O:\GPU-info\p40" を、ログを保存したい適切なパスに変更します。例：
+    "C:\path" を、ログを保存したい適切なパスに変更します。例：
     powershell
-    $output_dir = "C:\Logs\GPU-info"
+    $output_dir = "C:\Logs\"
 変更を保存して、ファイルを閉じます。
 
 
