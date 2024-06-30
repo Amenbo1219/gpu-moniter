@@ -13,7 +13,7 @@
 
     # メモリ使用率と保有量を取得
     $mem_info = Get-WmiObject Win32_OperatingSystem
-    $mem_usage = [math]::Round(($mem_info.TotalVisibleMemorySize - $mem_info.FreePhysicalMemory) / $mem_info.TotalVisibleMemorySize * 100, 0)
+    $mem_usage = [math]::Round(($mem_info.TotalVisibleMemorySize - $mem_info.FreePhysicalMemory) / $mem_info.TotalVisibleMemorySize * 100, 2)
     $mem_used = [math]::Round(($mem_info.TotalVisibleMemorySize - $mem_info.FreePhysicalMemory) / 1KB, 0)
     $mem_total = [math]::Round($mem_info.TotalVisibleMemorySize / 1KB,0)
     # GPU情報を取得（nvidia-smiが利用可能な場合）
